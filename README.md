@@ -1,4 +1,3 @@
-```mermaid
 flowchart TD
     Start([Начало: Сегодня нужно на работу]) --> CheckCard[Проверить баланс карты]
     CheckCard --> DecisionBalance{Баланс < 500 ₽?}
@@ -42,5 +41,3 @@ flowchart TD
     style NotifyColleagues fill:#fff3cd
     style CheckLate fill:#ffebee
     style ParallelTimeCheck fill:#fff3cd
-
-```
